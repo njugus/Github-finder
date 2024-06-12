@@ -1,0 +1,37 @@
+.main-header{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #070f2b;
+    color: lightgray;
+    width: 100%;
+    height: auto;
+
+}
+
+@media screen and (max-width : 600px){
+    .main-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .github-account{
+        margin-bottom: 0.5rem;
+    }
+    .input-div{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }  
+}
+
+.github-account{
+    color: lightgray;
+}
+.inputElement{
+    border-radius: 10px;
+}
+
+.input-button{
+    border: 30px;
+}
