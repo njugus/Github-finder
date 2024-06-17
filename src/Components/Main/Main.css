@@ -6,7 +6,7 @@
   width: 100%;
 }
 .repo-wrapper{
-    border: 1px solid gray;
+   
     max-width: 100%;
     display: flex;
     flex-direction: row;
@@ -16,7 +16,7 @@
 }
 
 .main-wrapper {
-  border: 1px solid gray;
+  
   display: grid;
   grid-template-columns: 1fr 2fr; 
   gap: 0;
@@ -69,7 +69,7 @@
 
 .profile-div {
   color: black;
-  border: 1px solid gray;
+ 
   padding: 10px;
   display: flex;
   font-family: "Poppins", sans-serif;
@@ -92,7 +92,7 @@
 
 .repository-section {
   color: black;
-  border: 1px solid gray;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-around;
