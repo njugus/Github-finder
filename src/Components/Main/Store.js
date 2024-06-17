@@ -28,12 +28,12 @@ const useStore = create((set) => ({
   following_name: "",
   following_url: "",
   loading: false,
-  error: null, // Add error state
+  error: null, 
 
   setUserName: (username) => set({ username }),
 
   fetchRepo: async (username) => {
-    set({ loading: true, error: null }); // Reset error state
+    set({ loading: true, error: null }); 
     try {
       const response = await fetch(`https://api.github.com/users/${username}/repos`);
       const data = await response.json();
@@ -56,7 +56,7 @@ const useStore = create((set) => ({
   },
 
   fetchProfileInfo: async (username) => {
-    set({ loading: true, error: null }); // Reset error state
+    set({ loading: true, error: null }); 
     try {
       const response = await fetch(`https://api.github.com/users/${username}`);
       const data = await response.json();
@@ -83,7 +83,7 @@ const useStore = create((set) => ({
   },
 
   fetchFollowers: async (username) => {
-    set({ loading: true, error: null }); // Reset error state
+    set({ loading: true, error: null }); 
     try {
       const response = await fetch(`https://api.github.com/users/${username}/followers`);
       const data = await response.json();
@@ -105,7 +105,7 @@ const useStore = create((set) => ({
   },
 
   fetchFollowing: async (username) => {
-    set({ loading: true, error: null }); // Reset error state
+    set({ loading: true, error: null }); 
     try {
       const response = await fetch(`https://api.github.com/users/${username}/following`);
       const data = await response.json();

@@ -18,7 +18,7 @@ function Main() {
     following,
     bio,
     loading,
-    error, // Add error state
+    error, 
   } = useStore();
 
   const repoList = useStore((state) => state.repoList);
@@ -51,8 +51,8 @@ function Main() {
             {loading ? (
               <p>Loading...</p>
             ) : error ? (
-              <div className="error-message">
-                <p>Error: {error}</p>
+              <div>
+                <p  className="error-message">Error: {error}</p>
               </div>
             ) : (
               <div className="profile-heading">
@@ -80,8 +80,8 @@ function Main() {
           {loading ? (
             <p>Loading repositories....</p>
           ) : error ? (
-            <div className="error-message">
-              <p>Error: {error}</p>
+            <div>
+              <p  className="error-message">Error: {error}</p>
             </div>
           ) : (
             <div className="repository-section">
