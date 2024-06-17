@@ -8,13 +8,20 @@
     color: lightgray;
     width: 100%;
     height: auto;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: auto;
 }
+
 
 @media screen and (max-width : 600px){
     .main-header{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: hidden;
     }
     .github-account{
         margin-bottom: 0.5rem;

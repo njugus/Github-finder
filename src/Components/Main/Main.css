@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+.main-section {
+  position: relative;
+  margin-top: 15vh;
+  width: 100%;
+}
+.repo-wrapper{
+    border: 1px solid gray;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.main-wrapper {
+  border: 1px solid gray;
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  gap: 0;
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .main-wrapper {
+    grid-template-columns: 1fr; 
+    gap: 0;
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+  }
+
+  .profile-div {
+    max-width: 100%; 
+  }
+  .error-message{
+    color: black;
+  }
+
+  .repository-section {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .repo-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    gap: 1rem; 
+    
+
+  }
+
+  .repo {
+    width: 100%; 
+    margin-bottom: 1rem; 
+  }
+}
+
+.profile-div {
+  color: black;
+  border: 1px solid gray;
+  padding: 10px;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 340px;
+  align-self: flex-start;
+  gap: 2rem;
+  position: sticky;
+  top: 0;
+}
+
+#main-name {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1000;
+  font-size: 25px;
+  color: black;
+}
+
+.repository-section {
+  color: black;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  padding: 5px;
+  gap: 1rem;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.github-logo {
+  width: 100%;
+  max-width: 360px;
+  height: 100%;
+  max-height: 300px;
+  margin: 0;
+}
+
+.logo {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.profile-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 1rem;
+}
+
+.item {
+  width: 100%;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: flex-start;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 15px;
+}
+
+.item-tag {
+  border: 1px solid gray;
+  margin: 0.5rem;
+  background-color: black;
+  width: 100%;
+  max-width: 60%;
+  height: 100%;
+  max-height: 30px;
+  padding: 2px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.repo {
+  border: 1px solid gray;
+  width: calc(50% - 1rem);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+}
+
+.top-div {
+  border: 1px solid gray;
+  background-color: #f1f1e6;
+  height: 70%;
+  padding: 2px;
+  text-align: center;
+  width: 100%;
+}
+
+.bottom-div {
+  border: 1px solid gray;
+  background-color: cornsilk;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+}
+
+.followers {
+  border: 1px solid gray;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: white;
+  justify-content: center;
+}
+
+.follower {
+  border: 1px solid gray;
+  width: calc(20% - 1rem);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: cornsilk;
+}
+
+.image-div {
+  border: 1px solid gray;
+  width: 100%;
+  height: 100%;
+  max-width: 25%;
+  max-height: 30%;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.follower-name {
+  font-family: "Poppins", sans-serif;
+}
+
+.follower-profile {
+  border: 1px solid gray;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.link-tag {
+  text-decoration: none;
+}
+
+.following {
+  border: 1px solid gray;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: white;
+}

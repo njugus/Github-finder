@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useRef } from 'react'
 import './App.css'
 import Header from './Components/Header/Header'
+import Main from './Components/Main/Main'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
     <Header/>
+    <Main/>
     </>
   )
 }
