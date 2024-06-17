@@ -5,7 +5,7 @@
   margin-top: 15vh;
   width: 100%;
 }
-.repo-wrapper{
+/* .repo-wrapper{
     border: 1px solid gray;
     max-width: 100%;
     display: flex;
@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-}
+} */
 
 .main-wrapper {
   border: 1px solid gray;
