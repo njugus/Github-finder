@@ -81,7 +81,7 @@ function Main() {
             <p>Loading repositories....</p>
           ) : error ? (
             <div>
-              <p  className="error-message">Error: {error}</p>
+              <p  className="error-message" style={{color : "black"}}>Error: {error}</p>
             </div>
           ) : (
             <div className="repository-section">
@@ -139,6 +139,7 @@ function Main() {
                       </a>
                     </div>
                   </div>
+
                 ))}
               </div>
             </div>

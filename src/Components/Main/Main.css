@@ -101,6 +101,10 @@
   gap: 1rem;
   overflow: hidden;
   box-sizing: border-box;
+  position: relative;
+  right: 0;
+  top: 0;
+
 }
 
 .github-logo {
